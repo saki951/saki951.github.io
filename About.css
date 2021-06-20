@@ -1,0 +1,61 @@
+body {
+    background: url(imgs/kitchen_prep.jpg) center fixed;
+    background-size: contain;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    
+}
+
+h1{
+    font-weight: 500;
+    font-style: italic;
+    margin: 0 250px 0 250px;
+    background-color: rgb(42, 81, 130, .70);
+    border-radius: 30px;
+}
+
+#about p{
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 0 250px 0 250px;
+    background-color: rgb(42, 81, 130, .70);
+    border-radius: 30px;
+}
+
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 5rem;
+} 
+
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+} 
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(146, 185, 232);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: rgb(42, 81, 130);
+    transition: background 500ms;
+}

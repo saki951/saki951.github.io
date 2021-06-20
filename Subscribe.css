@@ -1,0 +1,76 @@
+body {
+    background: url(imgs/kitchen_prep.jpg) center fixed;
+    background-size: contain;
+    font-family: 'EB Garamond', serif;
+    display: flex;
+    
+}
+h1{
+    font-weight: 500;
+    font-style: italic;
+}
+
+#signup {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+#signup p:hover{
+    color: rgb(42, 81, 130);
+    transition: .3s ease-in-out;
+}
+
+
+.register {
+    color: white;
+    background-color: rgb(42, 81, 130, 0.70);
+    padding: 20px;
+    border-radius: 30px;
+    font-size: 1.25rem;
+}
+
+.register button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 150px;
+}
+
+#terms {
+    font-size: 0.75rem;
+}
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 5rem;
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: rgb(146, 185, 232);
+}
+
+#mainNavbar .navbar-brand {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar.scrolled {
+    background: rgb(42, 81, 130);
+    transition: background 500ms;
+}
+
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+
+}
